@@ -1,0 +1,150 @@
+* {  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Aplica a fonte cursiva para o tema mágico */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdf5f8; /* Fundo claro com toque rosado */
+    color: #5b3c88; /* Roxo elegante */
+}
+
+/* Para o título da página */
+h1, h2, h3, .banner__titulo, .carrossel__titulo, .tópicos__titulo, .contato__titulo, .rodapé__titulo {
+    font-family: 'Bangers', sans-serif;
+    color: #8a60bf; /* Roxo pastel */
+}
+
+/* Caso queira aplicar em outras seções específicas */
+.lista-menu__titulo, .descricao__titulo, .botões__ancora {
+    font-family: 'Bangers', sans-serif;
+}
+
+/* Container padrão */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+.cabeçalho {
+    background-color: #8a60bf; /* Roxo suave */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho__menu-hamburguer {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px 0;
+}
+
+.lista-menu__titulo {
+    font-weight: bold;
+    color: #ffd1dc; /* Rosa pastel */
+    margin-bottom: 10px;
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.lista-menu__link:hover {
+    color: #ffd1dc; /* Rosa pastel */
+}
+
+/* Banner */
+.banner {
+    background-image: url('img/princesa-sofia-bg.jpg'); /* Fundo temático */
+    background-size: cover;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.banner__titulo {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffd1dc; /* Rosa pastel */
+}
+
+.banner__texto {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.banner__pesquisa {
+    padding: 10px;
+    border: 2px solid #8a60bf; /* Roxo pastel */
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Carrossel */
+.carrossel__titulo {
+    font-size: 2em;
+    color: #8a60bf; /* Roxo pastel */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Cartões */
+.card {
+    background-color: #fff;
+    border: 2px solid #ffd1dc; /* Rosa pastel */
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.descrição__titulo {
+    font-size: 1.5em;
+    color: #8a60bf; /* Roxo pastel */
+}
+
+.botões__ancora {
+    text-decoration: none;
+    color: #8a60bf; /* Roxo */
+    font-weight: bold;
+}
+
+/* Tópicos */
+.tópicos {
+    margin: 40px 0;
+    background-color: #fdf5f8; /* Fundo claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tópicos__link {
+    text-decoration: none;
+    color: #8a60bf; /* Roxo pastel */
+}
+
+/* Contato */
+.contato {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #8a60bf; /* Roxo intenso */
+    color: #fff;
+}
+
+/* Rodapé */
+.rodapé {
+    background-color: #5b3c88; /* Roxo profundo */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
